@@ -1,4 +1,4 @@
-ios_build
-=========
+Simple iOS Build Script
+=======================
 
-simple ios build script
+See This is an [How to export ipa from archive using xcodebuild](http://blog.reohou.com/how-to-export-ipa-from-archive-using-xcodebuild/).
