@@ -33,6 +33,7 @@ xcodebuild clean -project ${PROJECT_NAME}.xcodeproj \
 # archive
 xcodebuild archive -project ${PROJECT_NAME}.xcodeproj \
                    -scheme ${SCHEME_NAME} \
+                   -destination generic/platform=iOS \
                    -archivePath bin/${PROJECT_NAME}.xcarchive \
                    || failed "xcodebuild archive"
 # export ipa
